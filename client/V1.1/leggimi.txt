@@ -1,0 +1,7 @@
+Script python di esempio da utilizzare per caricare i dati nel db via rest api
+
+
+mu_ra_cli esegue caricamento file di dati excel nel db marketupdate
+parametri: i. URL rest api; ii. file excel; iii. sheet 
+
+v.1.1. Aggiunto HTTPBasicAuth 

@@ -1,0 +1,23 @@
+SELECT row_number() OVER () AS id,
+    val.value AS val_value,
+    val.unit AS val_unit,
+    val."precision" AS val_precision,
+    val.val_format,
+    val.val_sequence,
+    val.description AS val_description,
+    sym.name AS sym_name,
+    sym.description AS sym_des,
+    cat.name AS cat_name,
+    cat.description AS cat_des,
+    upd.pub_date,
+    upd.pub_hour
+   FROM marketupdate_model_update upd,
+    marketupdate_model_category cat,
+    marketupdate_model_symbol sym,
+    marketupdate_model_value val
+  WHERE val.symbol_id = sym.id AND sym.category_id = cat.id 
+	AND cat.update_id = (( SELECT marketupdate_model_update.id FROM marketupdate_model_update
+          			WHERE concat(marketupdate_model_update.pub_date, marketupdate_model_update.pub_hour) = 
+				(( SELECT max(concat(marketupdate_model_update_1.pub_date, marketupdate_model_update_1.pub_hour)) AS max FROM marketupdate_model_update marketupdate_model_update_1)))) 
+	AND upd.id = cat.update_id
+  ORDER BY cat.id, sym.id, val.val_sequence;

@@ -1,0 +1,12 @@
+Script python di esempio da utilizzare per caricare i dati nel db via rest api
+
+
+2. mu_ra_cli esegue caricamento file di dati excel nel db marketupdate
+parametri: i. URL rest api; ii. file excel; iii. sheet 
+
+1. mu_ra_mac legge dati da client bloomberg e scrive file di dati excel
+parametri: i. file excel; ii. sheet; iii. Macro da eseguire
+
+
+Next steps
+Unificare i due client attaulmente in run in ordine

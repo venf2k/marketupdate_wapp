@@ -1,0 +1,31 @@
+body { 
+color: #001548;
+font-family: arial, helvetica, sans-serif;
+}
+
+h1 { 
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+}
+
+p.tail { 
+font-size: 15px;
+font-weight: bold;
+color: gray;
+text-align: center;
+}
+
+table.table thead tr { 
+color: #FFFFFF;
+font-weight: bold;
+background-color: #C90026;
+}
+
+table.table tbody tr:nth-child(odd) { 
+background-color: lightgray;
+}
+
+
+
+

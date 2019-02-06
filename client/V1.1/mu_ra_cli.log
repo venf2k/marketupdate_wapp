@@ -1,0 +1,850 @@
+2019-02-05 12:38:54,877 - __main__ - INFO - Logging started
+2019-02-05 12:38:55,070 - __main__ - ERROR - An error occurred
+2019-02-05 12:40:19,695 - __main__ - INFO - Logging started
+2019-02-05 12:40:19,994 - __main__ - INFO - Payload: 
+2019-02-05 12:40:19,994 - __main__ - INFO - {'notes_text': 'rilevazione di prova da client', 'pub_date': '2018-11-06', 'pub_hour': '11:06:17.720000'}
+2019-02-05 12:40:19,995 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/updates/
+2019-02-05 12:40:19,995 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:19,995 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:20 GMT', 'Content-Type': 'application/json', 'Content-Length': '107', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:19,996 - __main__ - INFO - Content response:{'pk': 3, 'notes_text': 'rilevazione di prova da client', 'pub_date': '2018-11-06', 'pub_hour': '11:06:17.720000'}
+2019-02-05 12:40:19,996 - __main__ - INFO - Content pk value:3
+2019-02-05 12:40:20,201 - __main__ - INFO - Payload: 
+2019-02-05 12:40:20,201 - __main__ - INFO - {'name': 'Topic', 'description': 'Titoli Governativi', 'update': 3}
+2019-02-05 12:40:20,201 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/categories/
+2019-02-05 12:40:20,202 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:20,202 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:20 GMT', 'Content-Type': 'application/json', 'Content-Length': '70', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:20,202 - __main__ - INFO - Content response:{'pk': 19, 'name': 'Topic', 'description': 'Titoli Governativi', 'update': 3}
+2019-02-05 12:40:20,203 - __main__ - INFO - Content pk value:19
+2019-02-05 12:40:20,398 - __main__ - INFO - Payload: 
+2019-02-05 12:40:20,398 - __main__ - INFO - {'name': 'Ticker', 'description': 'BTP 5Y-ASW ', 'category': 19}
+2019-02-05 12:40:20,399 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:20,399 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:20,399 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:21 GMT', 'Content-Type': 'application/json', 'Content-Length': '66', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:20,400 - __main__ - INFO - Content response:{'pk': 79, 'name': 'Ticker', 'description': 'BTP 5Y-ASW', 'category': 19}
+2019-02-05 12:40:20,400 - __main__ - INFO - Content pk value:79
+2019-02-05 12:40:20,631 - __main__ - INFO - Payload: 
+2019-02-05 12:40:20,631 - __main__ - INFO - {'value': '195', 'unit': 2, 'precision': 0, 'val_format': 0, 'val_sequence': 0, 'description': 'Spread', 'symbol': 79}
+2019-02-05 12:40:20,632 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:20,632 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:20,632 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:21 GMT', 'Content-Type': 'application/json', 'Content-Length': '122', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:20,632 - __main__ - INFO - Content response:{'pk': 145, 'value': '195.00000', 'unit': '2', 'precision': 0, 'val_format': 0, 'val_sequence': 0, 'description': 'Spread', 'symbol': 79}
+2019-02-05 12:40:20,633 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:20,847 - __main__ - INFO - Payload: 
+2019-02-05 12:40:20,847 - __main__ - INFO - {'value': '0.023', 'unit': 1, 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Mid Yield', 'symbol': 79}
+2019-02-05 12:40:20,847 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:20,847 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:20,847 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:21 GMT', 'Content-Type': 'application/json', 'Content-Length': '123', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:20,847 - __main__ - INFO - Content response:{'pk': 146, 'value': '0.02300', 'unit': '1', 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Mid Yield', 'symbol': 79}
+2019-02-05 12:40:20,847 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:21,057 - __main__ - INFO - Payload: 
+2019-02-05 12:40:21,057 - __main__ - INFO - {'name': 'Ticker', 'description': 'BTP 10Y-ASW ', 'category': 19}
+2019-02-05 12:40:21,057 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:21,057 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:21,057 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:21 GMT', 'Content-Type': 'application/json', 'Content-Length': '67', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:21,057 - __main__ - INFO - Content response:{'pk': 80, 'name': 'Ticker', 'description': 'BTP 10Y-ASW', 'category': 19}
+2019-02-05 12:40:21,057 - __main__ - INFO - Content pk value:80
+2019-02-05 12:40:21,246 - __main__ - INFO - Payload: 
+2019-02-05 12:40:21,246 - __main__ - INFO - {'value': '226', 'unit': 2, 'precision': 0, 'val_format': 0, 'val_sequence': 0, 'description': 'Spread', 'symbol': 80}
+2019-02-05 12:40:21,247 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:21,247 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:21,247 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:21 GMT', 'Content-Type': 'application/json', 'Content-Length': '122', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:21,247 - __main__ - INFO - Content response:{'pk': 147, 'value': '226.00000', 'unit': '2', 'precision': 0, 'val_format': 0, 'val_sequence': 0, 'description': 'Spread', 'symbol': 80}
+2019-02-05 12:40:21,248 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:21,449 - __main__ - INFO - Payload: 
+2019-02-05 12:40:21,449 - __main__ - INFO - {'value': '0.034', 'unit': 1, 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Mid Yield', 'symbol': 80}
+2019-02-05 12:40:21,449 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:21,450 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:21,450 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:22 GMT', 'Content-Type': 'application/json', 'Content-Length': '123', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:21,450 - __main__ - INFO - Content response:{'pk': 148, 'value': '0.03400', 'unit': '1', 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Mid Yield', 'symbol': 80}
+2019-02-05 12:40:21,450 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:21,653 - __main__ - INFO - Payload: 
+2019-02-05 12:40:21,654 - __main__ - INFO - {'name': 'Ticker', 'description': 'BMK 5Y IT-DE', 'category': 19}
+2019-02-05 12:40:21,654 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:21,654 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:21,654 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:22 GMT', 'Content-Type': 'application/json', 'Content-Length': '68', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:21,655 - __main__ - INFO - Content response:{'pk': 81, 'name': 'Ticker', 'description': 'BMK 5Y IT-DE', 'category': 19}
+2019-02-05 12:40:21,655 - __main__ - INFO - Content pk value:81
+2019-02-05 12:40:21,870 - __main__ - INFO - Payload: 
+2019-02-05 12:40:21,870 - __main__ - INFO - {'value': '250', 'unit': 2, 'precision': 0, 'val_format': 0, 'val_sequence': 0, 'description': 'Spread', 'symbol': 81}
+2019-02-05 12:40:21,871 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:21,871 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:21,871 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:22 GMT', 'Content-Type': 'application/json', 'Content-Length': '122', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:21,871 - __main__ - INFO - Content response:{'pk': 149, 'value': '250.00000', 'unit': '2', 'precision': 0, 'val_format': 0, 'val_sequence': 0, 'description': 'Spread', 'symbol': 81}
+2019-02-05 12:40:21,871 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:22,108 - __main__ - INFO - Payload: 
+2019-02-05 12:40:22,108 - __main__ - INFO - {'name': 'Ticker', 'description': 'BMK 10Y IT-DE', 'category': 19}
+2019-02-05 12:40:22,109 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:22,109 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:22,109 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:22 GMT', 'Content-Type': 'application/json', 'Content-Length': '69', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:22,109 - __main__ - INFO - Content response:{'pk': 82, 'name': 'Ticker', 'description': 'BMK 10Y IT-DE', 'category': 19}
+2019-02-05 12:40:22,110 - __main__ - INFO - Content pk value:82
+2019-02-05 12:40:22,307 - __main__ - INFO - Payload: 
+2019-02-05 12:40:22,307 - __main__ - INFO - {'value': '296', 'unit': 2, 'precision': 0, 'val_format': 0, 'val_sequence': 0, 'description': 'Spread', 'symbol': 82}
+2019-02-05 12:40:22,307 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:22,307 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:22,307 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:22 GMT', 'Content-Type': 'application/json', 'Content-Length': '122', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:22,307 - __main__ - INFO - Content response:{'pk': 150, 'value': '296.00000', 'unit': '2', 'precision': 0, 'val_format': 0, 'val_sequence': 0, 'description': 'Spread', 'symbol': 82}
+2019-02-05 12:40:22,307 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:22,497 - __main__ - INFO - Payload: 
+2019-02-05 12:40:22,497 - __main__ - INFO - {'name': 'Ticker', 'description': 'BMK 10Y IT-SP', 'category': 19}
+2019-02-05 12:40:22,497 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:22,497 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:22,497 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:23 GMT', 'Content-Type': 'application/json', 'Content-Length': '69', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:22,497 - __main__ - INFO - Content response:{'pk': 83, 'name': 'Ticker', 'description': 'BMK 10Y IT-SP', 'category': 19}
+2019-02-05 12:40:22,497 - __main__ - INFO - Content pk value:83
+2019-02-05 12:40:22,701 - __main__ - INFO - Payload: 
+2019-02-05 12:40:22,702 - __main__ - INFO - {'value': '180', 'unit': 2, 'precision': 0, 'val_format': 0, 'val_sequence': 0, 'description': 'Spread', 'symbol': 83}
+2019-02-05 12:40:22,702 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:22,702 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:22,702 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:23 GMT', 'Content-Type': 'application/json', 'Content-Length': '122', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:22,703 - __main__ - INFO - Content response:{'pk': 151, 'value': '180.00000', 'unit': '2', 'precision': 0, 'val_format': 0, 'val_sequence': 0, 'description': 'Spread', 'symbol': 83}
+2019-02-05 12:40:22,703 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:22,890 - __main__ - INFO - Payload: 
+2019-02-05 12:40:22,890 - __main__ - INFO - {'name': 'Ticker', 'description': 'BMK 10Y IT-PO', 'category': 19}
+2019-02-05 12:40:22,890 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:22,890 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:22,891 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:23 GMT', 'Content-Type': 'application/json', 'Content-Length': '69', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:22,891 - __main__ - INFO - Content response:{'pk': 84, 'name': 'Ticker', 'description': 'BMK 10Y IT-PO', 'category': 19}
+2019-02-05 12:40:22,891 - __main__ - INFO - Content pk value:84
+2019-02-05 12:40:23,095 - __main__ - INFO - Payload: 
+2019-02-05 12:40:23,096 - __main__ - INFO - {'value': '148', 'unit': 2, 'precision': 0, 'val_format': 0, 'val_sequence': 0, 'description': 'Spread', 'symbol': 84}
+2019-02-05 12:40:23,096 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:23,096 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:23,097 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:23 GMT', 'Content-Type': 'application/json', 'Content-Length': '122', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:23,097 - __main__ - INFO - Content response:{'pk': 152, 'value': '148.00000', 'unit': '2', 'precision': 0, 'val_format': 0, 'val_sequence': 0, 'description': 'Spread', 'symbol': 84}
+2019-02-05 12:40:23,097 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:23,306 - __main__ - INFO - Payload: 
+2019-02-05 12:40:23,306 - __main__ - INFO - {'name': 'Ticker', 'description': 'BMK 10Y SP-DE', 'category': 19}
+2019-02-05 12:40:23,306 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:23,306 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:23,307 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:23 GMT', 'Content-Type': 'application/json', 'Content-Length': '69', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:23,307 - __main__ - INFO - Content response:{'pk': 85, 'name': 'Ticker', 'description': 'BMK 10Y SP-DE', 'category': 19}
+2019-02-05 12:40:23,307 - __main__ - INFO - Content pk value:85
+2019-02-05 12:40:23,501 - __main__ - INFO - Payload: 
+2019-02-05 12:40:23,501 - __main__ - INFO - {'value': '116', 'unit': 2, 'precision': 0, 'val_format': 0, 'val_sequence': 0, 'description': 'Spread', 'symbol': 85}
+2019-02-05 12:40:23,502 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:23,502 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:23,502 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:24 GMT', 'Content-Type': 'application/json', 'Content-Length': '122', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:23,502 - __main__ - INFO - Content response:{'pk': 153, 'value': '116.00000', 'unit': '2', 'precision': 0, 'val_format': 0, 'val_sequence': 0, 'description': 'Spread', 'symbol': 85}
+2019-02-05 12:40:23,503 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:23,719 - __main__ - INFO - Payload: 
+2019-02-05 12:40:23,719 - __main__ - INFO - {'name': 'Ticker', 'description': 'BMK 10Y FR-DE', 'category': 19}
+2019-02-05 12:40:23,719 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:23,719 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:23,719 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:24 GMT', 'Content-Type': 'application/json', 'Content-Length': '69', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:23,720 - __main__ - INFO - Content response:{'pk': 86, 'name': 'Ticker', 'description': 'BMK 10Y FR-DE', 'category': 19}
+2019-02-05 12:40:23,720 - __main__ - INFO - Content pk value:86
+2019-02-05 12:40:23,936 - __main__ - INFO - Payload: 
+2019-02-05 12:40:23,936 - __main__ - INFO - {'value': '37', 'unit': 2, 'precision': 0, 'val_format': 0, 'val_sequence': 0, 'description': 'Spread', 'symbol': 86}
+2019-02-05 12:40:23,936 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:23,936 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:23,936 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:24 GMT', 'Content-Type': 'application/json', 'Content-Length': '121', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:23,937 - __main__ - INFO - Content response:{'pk': 154, 'value': '37.00000', 'unit': '2', 'precision': 0, 'val_format': 0, 'val_sequence': 0, 'description': 'Spread', 'symbol': 86}
+2019-02-05 12:40:23,937 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:24,158 - __main__ - INFO - Payload: 
+2019-02-05 12:40:24,158 - __main__ - INFO - {'name': 'Ticker', 'description': 'BMK 10Y BEI-DE', 'category': 19}
+2019-02-05 12:40:24,158 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:24,158 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:24,158 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:24 GMT', 'Content-Type': 'application/json', 'Content-Length': '70', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:24,158 - __main__ - INFO - Content response:{'pk': 87, 'name': 'Ticker', 'description': 'BMK 10Y BEI-DE', 'category': 19}
+2019-02-05 12:40:24,158 - __main__ - INFO - Content pk value:87
+2019-02-05 12:40:24,350 - __main__ - INFO - Payload: 
+2019-02-05 12:40:24,350 - __main__ - INFO - {'value': '36', 'unit': 2, 'precision': 0, 'val_format': 0, 'val_sequence': 0, 'description': 'Spread', 'symbol': 87}
+2019-02-05 12:40:24,351 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:24,351 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:24,351 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:25 GMT', 'Content-Type': 'application/json', 'Content-Length': '121', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:24,352 - __main__ - INFO - Content response:{'pk': 155, 'value': '36.00000', 'unit': '2', 'precision': 0, 'val_format': 0, 'val_sequence': 0, 'description': 'Spread', 'symbol': 87}
+2019-02-05 12:40:24,352 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:24,551 - __main__ - INFO - Payload: 
+2019-02-05 12:40:24,551 - __main__ - INFO - {'name': 'Topic', 'description': 'Futures', 'update': 3}
+2019-02-05 12:40:24,552 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/categories/
+2019-02-05 12:40:24,552 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:24,552 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:25 GMT', 'Content-Type': 'application/json', 'Content-Length': '59', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:24,552 - __main__ - INFO - Content response:{'pk': 20, 'name': 'Topic', 'description': 'Futures', 'update': 3}
+2019-02-05 12:40:24,553 - __main__ - INFO - Content pk value:20
+2019-02-05 12:40:24,751 - __main__ - INFO - Payload: 
+2019-02-05 12:40:24,751 - __main__ - INFO - {'name': 'Ticker', 'description': 'BUND Future', 'category': 20}
+2019-02-05 12:40:24,752 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:24,752 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:24,752 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:25 GMT', 'Content-Type': 'application/json', 'Content-Length': '67', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:24,752 - __main__ - INFO - Content response:{'pk': 88, 'name': 'Ticker', 'description': 'BUND Future', 'category': 20}
+2019-02-05 12:40:24,752 - __main__ - INFO - Content pk value:88
+2019-02-05 12:40:24,953 - __main__ - INFO - Payload: 
+2019-02-05 12:40:24,953 - __main__ - INFO - {'value': '0.00', 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 88}
+2019-02-05 12:40:24,953 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:24,954 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:24,954 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:25 GMT', 'Content-Type': 'application/json', 'Content-Length': '119', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:24,954 - __main__ - INFO - Content response:{'pk': 156, 'value': '0.00000', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 88}
+2019-02-05 12:40:24,954 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:25,152 - __main__ - INFO - Payload: 
+2019-02-05 12:40:25,152 - __main__ - INFO - {'value': '7', 'unit': 6, 'precision': 0, 'val_format': 0, 'val_sequence': 1, 'description': 'Ticks', 'symbol': 88}
+2019-02-05 12:40:25,152 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:25,153 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:25,153 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:25 GMT', 'Content-Type': 'application/json', 'Content-Length': '119', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:25,153 - __main__ - INFO - Content response:{'pk': 157, 'value': '7.00000', 'unit': '6', 'precision': 0, 'val_format': 0, 'val_sequence': 1, 'description': 'Ticks', 'symbol': 88}
+2019-02-05 12:40:25,153 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:25,331 - __main__ - INFO - Payload: 
+2019-02-05 12:40:25,332 - __main__ - INFO - {'name': 'Ticker', 'description': 'BTP Future', 'category': 20}
+2019-02-05 12:40:25,332 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:25,332 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:25,332 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:26 GMT', 'Content-Type': 'application/json', 'Content-Length': '66', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:25,332 - __main__ - INFO - Content response:{'pk': 89, 'name': 'Ticker', 'description': 'BTP Future', 'category': 20}
+2019-02-05 12:40:25,332 - __main__ - INFO - Content pk value:89
+2019-02-05 12:40:25,522 - __main__ - INFO - Payload: 
+2019-02-05 12:40:25,522 - __main__ - INFO - {'value': '0.00', 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 89}
+2019-02-05 12:40:25,522 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:25,522 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:25,522 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:26 GMT', 'Content-Type': 'application/json', 'Content-Length': '119', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:25,522 - __main__ - INFO - Content response:{'pk': 158, 'value': '0.00000', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 89}
+2019-02-05 12:40:25,522 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:25,713 - __main__ - INFO - Payload: 
+2019-02-05 12:40:25,713 - __main__ - INFO - {'value': '-56', 'unit': 6, 'precision': 0, 'val_format': 0, 'val_sequence': 1, 'description': 'Ticks', 'symbol': 89}
+2019-02-05 12:40:25,713 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:25,713 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:25,713 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:26 GMT', 'Content-Type': 'application/json', 'Content-Length': '121', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:25,713 - __main__ - INFO - Content response:{'pk': 159, 'value': '-56.00000', 'unit': '6', 'precision': 0, 'val_format': 0, 'val_sequence': 1, 'description': 'Ticks', 'symbol': 89}
+2019-02-05 12:40:25,713 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:25,900 - __main__ - INFO - Payload: 
+2019-02-05 12:40:25,901 - __main__ - INFO - {'name': 'Topic', 'description': 'Tassi', 'update': 3}
+2019-02-05 12:40:25,901 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/categories/
+2019-02-05 12:40:25,901 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:25,901 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:26 GMT', 'Content-Type': 'application/json', 'Content-Length': '57', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:25,901 - __main__ - INFO - Content response:{'pk': 21, 'name': 'Topic', 'description': 'Tassi', 'update': 3}
+2019-02-05 12:40:25,901 - __main__ - INFO - Content pk value:21
+2019-02-05 12:40:26,095 - __main__ - INFO - Payload: 
+2019-02-05 12:40:26,095 - __main__ - INFO - {'name': 'Ticker', 'description': 'Euribor 6m ', 'category': 21}
+2019-02-05 12:40:26,096 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:26,096 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:26,096 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:26 GMT', 'Content-Type': 'application/json', 'Content-Length': '66', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:26,097 - __main__ - INFO - Content response:{'pk': 90, 'name': 'Ticker', 'description': 'Euribor 6m', 'category': 21}
+2019-02-05 12:40:26,097 - __main__ - INFO - Content pk value:90
+2019-02-05 12:40:26,304 - __main__ - INFO - Payload: 
+2019-02-05 12:40:26,304 - __main__ - INFO - {'value': '-0.003', 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Yield', 'symbol': 90}
+2019-02-05 12:40:26,304 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:26,304 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:26,305 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:26 GMT', 'Content-Type': 'application/json', 'Content-Length': '120', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:26,305 - __main__ - INFO - Content response:{'pk': 160, 'value': '-0.00300', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Yield', 'symbol': 90}
+2019-02-05 12:40:26,305 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:26,509 - __main__ - INFO - Payload: 
+2019-02-05 12:40:26,509 - __main__ - INFO - {'name': 'Ticker', 'description': 'Swap 5Y    ', 'category': 21}
+2019-02-05 12:40:26,509 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:26,509 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:26,509 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:27 GMT', 'Content-Type': 'application/json', 'Content-Length': '63', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:26,509 - __main__ - INFO - Content response:{'pk': 91, 'name': 'Ticker', 'description': 'Swap 5Y', 'category': 21}
+2019-02-05 12:40:26,509 - __main__ - INFO - Content pk value:91
+2019-02-05 12:40:26,734 - __main__ - INFO - Payload: 
+2019-02-05 12:40:26,734 - __main__ - INFO - {'value': 0.004, 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Yield', 'symbol': 91}
+2019-02-05 12:40:26,734 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:26,734 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:26,735 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:27 GMT', 'Content-Type': 'application/json', 'Content-Length': '119', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:26,735 - __main__ - INFO - Content response:{'pk': 161, 'value': '0.00400', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Yield', 'symbol': 91}
+2019-02-05 12:40:26,735 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:26,923 - __main__ - INFO - Payload: 
+2019-02-05 12:40:26,923 - __main__ - INFO - {'name': 'Ticker', 'description': 'Swap 10Y   ', 'category': 21}
+2019-02-05 12:40:26,923 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:26,924 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:26,924 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:27 GMT', 'Content-Type': 'application/json', 'Content-Length': '64', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:26,924 - __main__ - INFO - Content response:{'pk': 92, 'name': 'Ticker', 'description': 'Swap 10Y', 'category': 21}
+2019-02-05 12:40:26,924 - __main__ - INFO - Content pk value:92
+2019-02-05 12:40:27,113 - __main__ - INFO - Payload: 
+2019-02-05 12:40:27,113 - __main__ - INFO - {'value': '0.010', 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Yield', 'symbol': 92}
+2019-02-05 12:40:27,113 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:27,113 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:27,113 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:27 GMT', 'Content-Type': 'application/json', 'Content-Length': '119', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:27,113 - __main__ - INFO - Content response:{'pk': 162, 'value': '0.01000', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Yield', 'symbol': 92}
+2019-02-05 12:40:27,113 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:27,318 - __main__ - INFO - Payload: 
+2019-02-05 12:40:27,319 - __main__ - INFO - {'name': 'Topic', 'description': 'Cambi', 'update': 3}
+2019-02-05 12:40:27,319 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/categories/
+2019-02-05 12:40:27,319 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:27,320 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:27 GMT', 'Content-Type': 'application/json', 'Content-Length': '57', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:27,320 - __main__ - INFO - Content response:{'pk': 22, 'name': 'Topic', 'description': 'Cambi', 'update': 3}
+2019-02-05 12:40:27,320 - __main__ - INFO - Content pk value:22
+2019-02-05 12:40:27,549 - __main__ - INFO - Payload: 
+2019-02-05 12:40:27,549 - __main__ - INFO - {'name': 'Ticker', 'description': 'EUR vs USD ', 'category': 22}
+2019-02-05 12:40:27,550 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:27,550 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:27,550 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:28 GMT', 'Content-Type': 'application/json', 'Content-Length': '66', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:27,550 - __main__ - INFO - Content response:{'pk': 93, 'name': 'Ticker', 'description': 'EUR vs USD', 'category': 22}
+2019-02-05 12:40:27,551 - __main__ - INFO - Content pk value:93
+2019-02-05 12:40:27,753 - __main__ - INFO - Payload: 
+2019-02-05 12:40:27,753 - __main__ - INFO - {'value': 11405, 'unit': 6, 'precision': 3, 'val_format': 0, 'val_sequence': 0, 'description': 'Value', 'symbol': 93}
+2019-02-05 12:40:27,753 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:27,754 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:27,754 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:28 GMT', 'Content-Type': 'application/json', 'Content-Length': '123', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:27,754 - __main__ - INFO - Content response:{'pk': 163, 'value': '11405.00000', 'unit': '6', 'precision': 3, 'val_format': 0, 'val_sequence': 0, 'description': 'Value', 'symbol': 93}
+2019-02-05 12:40:27,755 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:27,960 - __main__ - INFO - Payload: 
+2019-02-05 12:40:27,960 - __main__ - INFO - {'name': 'Ticker', 'description': 'EUR vs CHF ', 'category': 22}
+2019-02-05 12:40:27,960 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:27,960 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:27,961 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:28 GMT', 'Content-Type': 'application/json', 'Content-Length': '66', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:27,961 - __main__ - INFO - Content response:{'pk': 94, 'name': 'Ticker', 'description': 'EUR vs CHF', 'category': 22}
+2019-02-05 12:40:27,961 - __main__ - INFO - Content pk value:94
+2019-02-05 12:40:28,179 - __main__ - INFO - Payload: 
+2019-02-05 12:40:28,179 - __main__ - INFO - {'value': 1145695, 'unit': 6, 'precision': 3, 'val_format': 0, 'val_sequence': 0, 'description': 'Value', 'symbol': 94}
+2019-02-05 12:40:28,179 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:28,180 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:28,180 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:28 GMT', 'Content-Type': 'application/json', 'Content-Length': '125', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:28,180 - __main__ - INFO - Content response:{'pk': 164, 'value': '1145695.00000', 'unit': '6', 'precision': 3, 'val_format': 0, 'val_sequence': 0, 'description': 'Value', 'symbol': 94}
+2019-02-05 12:40:28,180 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:28,388 - __main__ - INFO - Payload: 
+2019-02-05 12:40:28,388 - __main__ - INFO - {'name': 'Ticker', 'description': 'EUR vs GBP ', 'category': 22}
+2019-02-05 12:40:28,388 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:28,388 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:28,388 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:29 GMT', 'Content-Type': 'application/json', 'Content-Length': '66', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:28,388 - __main__ - INFO - Content response:{'pk': 95, 'name': 'Ticker', 'description': 'EUR vs GBP', 'category': 22}
+2019-02-05 12:40:28,388 - __main__ - INFO - Content pk value:95
+2019-02-05 12:40:28,583 - __main__ - INFO - Payload: 
+2019-02-05 12:40:28,583 - __main__ - INFO - {'value': '0.87311', 'unit': 6, 'precision': 3, 'val_format': 0, 'val_sequence': 0, 'description': 'Value', 'symbol': 95}
+2019-02-05 12:40:28,583 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:28,583 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:28,584 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:29 GMT', 'Content-Type': 'application/json', 'Content-Length': '119', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:28,584 - __main__ - INFO - Content response:{'pk': 165, 'value': '0.87311', 'unit': '6', 'precision': 3, 'val_format': 0, 'val_sequence': 0, 'description': 'Value', 'symbol': 95}
+2019-02-05 12:40:28,584 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:28,774 - __main__ - INFO - Payload: 
+2019-02-05 12:40:28,774 - __main__ - INFO - {'name': 'Topic', 'description': 'Commodities', 'update': 3}
+2019-02-05 12:40:28,775 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/categories/
+2019-02-05 12:40:28,775 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:28,775 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:29 GMT', 'Content-Type': 'application/json', 'Content-Length': '63', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:28,775 - __main__ - INFO - Content response:{'pk': 23, 'name': 'Topic', 'description': 'Commodities', 'update': 3}
+2019-02-05 12:40:28,775 - __main__ - INFO - Content pk value:23
+2019-02-05 12:40:28,961 - __main__ - INFO - Payload: 
+2019-02-05 12:40:28,962 - __main__ - INFO - {'name': 'Ticker', 'description': 'OIL', 'category': 23}
+2019-02-05 12:40:28,962 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:28,962 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:28,962 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:29 GMT', 'Content-Type': 'application/json', 'Content-Length': '59', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:28,963 - __main__ - INFO - Content response:{'pk': 96, 'name': 'Ticker', 'description': 'OIL', 'category': 23}
+2019-02-05 12:40:28,963 - __main__ - INFO - Content pk value:96
+2019-02-05 12:40:29,151 - __main__ - INFO - Payload: 
+2019-02-05 12:40:29,151 - __main__ - INFO - {'value': '0.00', 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 96}
+2019-02-05 12:40:29,151 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:29,151 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:29,152 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:29 GMT', 'Content-Type': 'application/json', 'Content-Length': '119', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:29,152 - __main__ - INFO - Content response:{'pk': 166, 'value': '0.00000', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 96}
+2019-02-05 12:40:29,152 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:29,353 - __main__ - INFO - Payload: 
+2019-02-05 12:40:29,354 - __main__ - INFO - {'value': '72.815', 'unit': 6, 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Value', 'symbol': 96}
+2019-02-05 12:40:29,354 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:29,354 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:29,354 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:30 GMT', 'Content-Type': 'application/json', 'Content-Length': '120', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:29,355 - __main__ - INFO - Content response:{'pk': 167, 'value': '72.81500', 'unit': '6', 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Value', 'symbol': 96}
+2019-02-05 12:40:29,355 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:29,551 - __main__ - INFO - Payload: 
+2019-02-05 12:40:29,552 - __main__ - INFO - {'name': 'Ticker', 'description': 'GOLD', 'category': 23}
+2019-02-05 12:40:29,552 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:29,552 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:29,552 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:30 GMT', 'Content-Type': 'application/json', 'Content-Length': '60', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:29,553 - __main__ - INFO - Content response:{'pk': 97, 'name': 'Ticker', 'description': 'GOLD', 'category': 23}
+2019-02-05 12:40:29,553 - __main__ - INFO - Content pk value:97
+2019-02-05 12:40:29,744 - __main__ - INFO - Payload: 
+2019-02-05 12:40:29,745 - __main__ - INFO - {'value': '0.00', 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 97}
+2019-02-05 12:40:29,745 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:29,745 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:29,745 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:30 GMT', 'Content-Type': 'application/json', 'Content-Length': '119', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:29,746 - __main__ - INFO - Content response:{'pk': 168, 'value': '0.00000', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 97}
+2019-02-05 12:40:29,746 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:29,969 - __main__ - INFO - Payload: 
+2019-02-05 12:40:29,969 - __main__ - INFO - {'value': '1234.160', 'unit': 6, 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Value', 'symbol': 97}
+2019-02-05 12:40:29,969 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:29,969 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:29,969 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:30 GMT', 'Content-Type': 'application/json', 'Content-Length': '122', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:29,969 - __main__ - INFO - Content response:{'pk': 169, 'value': '1234.16000', 'unit': '6', 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Value', 'symbol': 97}
+2019-02-05 12:40:29,969 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:30,156 - __main__ - INFO - Payload: 
+2019-02-05 12:40:30,156 - __main__ - INFO - {'name': 'Topic', 'description': 'Indici azionari', 'update': 3}
+2019-02-05 12:40:30,156 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/categories/
+2019-02-05 12:40:30,157 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:30,157 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:30 GMT', 'Content-Type': 'application/json', 'Content-Length': '67', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:30,157 - __main__ - INFO - Content response:{'pk': 24, 'name': 'Topic', 'description': 'Indici azionari', 'update': 3}
+2019-02-05 12:40:30,157 - __main__ - INFO - Content pk value:24
+2019-02-05 12:40:30,341 - __main__ - INFO - Payload: 
+2019-02-05 12:40:30,342 - __main__ - INFO - {'name': 'Ticker', 'description': 'FTSE MIB  ', 'category': 24}
+2019-02-05 12:40:30,342 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:30,342 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:30,342 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:31 GMT', 'Content-Type': 'application/json', 'Content-Length': '64', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:30,343 - __main__ - INFO - Content response:{'pk': 98, 'name': 'Ticker', 'description': 'FTSE MIB', 'category': 24}
+2019-02-05 12:40:30,343 - __main__ - INFO - Content pk value:98
+2019-02-05 12:40:30,538 - __main__ - INFO - Payload: 
+2019-02-05 12:40:30,539 - __main__ - INFO - {'value': '-0.01', 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 98}
+2019-02-05 12:40:30,539 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:30,539 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:30,539 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:31 GMT', 'Content-Type': 'application/json', 'Content-Length': '120', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:30,540 - __main__ - INFO - Content response:{'pk': 170, 'value': '-0.01000', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 98}
+2019-02-05 12:40:30,540 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:30,737 - __main__ - INFO - Payload: 
+2019-02-05 12:40:30,737 - __main__ - INFO - {'value': '19129.310', 'unit': 6, 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Value', 'symbol': 98}
+2019-02-05 12:40:30,738 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:30,738 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:30,738 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:31 GMT', 'Content-Type': 'application/json', 'Content-Length': '123', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:30,738 - __main__ - INFO - Content response:{'pk': 171, 'value': '19129.31000', 'unit': '6', 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Value', 'symbol': 98}
+2019-02-05 12:40:30,739 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:30,929 - __main__ - INFO - Payload: 
+2019-02-05 12:40:30,929 - __main__ - INFO - {'name': 'Ticker', 'description': 'SX5E', 'category': 24}
+2019-02-05 12:40:30,929 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:30,930 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:30,930 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:31 GMT', 'Content-Type': 'application/json', 'Content-Length': '60', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:30,930 - __main__ - INFO - Content response:{'pk': 99, 'name': 'Ticker', 'description': 'SX5E', 'category': 24}
+2019-02-05 12:40:30,930 - __main__ - INFO - Content pk value:99
+2019-02-05 12:40:31,126 - __main__ - INFO - Payload: 
+2019-02-05 12:40:31,127 - __main__ - INFO - {'value': '-0.01', 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 99}
+2019-02-05 12:40:31,127 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:31,127 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:31,127 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:31 GMT', 'Content-Type': 'application/json', 'Content-Length': '120', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:31,128 - __main__ - INFO - Content response:{'pk': 172, 'value': '-0.01000', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 99}
+2019-02-05 12:40:31,128 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:31,339 - __main__ - INFO - Payload: 
+2019-02-05 12:40:31,340 - __main__ - INFO - {'value': '3201.210', 'unit': 6, 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Value', 'symbol': 99}
+2019-02-05 12:40:31,340 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:31,340 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:31,340 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:32 GMT', 'Content-Type': 'application/json', 'Content-Length': '122', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:31,341 - __main__ - INFO - Content response:{'pk': 173, 'value': '3201.21000', 'unit': '6', 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Value', 'symbol': 99}
+2019-02-05 12:40:31,341 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:31,532 - __main__ - INFO - Payload: 
+2019-02-05 12:40:31,532 - __main__ - INFO - {'name': 'Ticker', 'description': 'DJ 30', 'category': 24}
+2019-02-05 12:40:31,532 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:31,532 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:31,532 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:32 GMT', 'Content-Type': 'application/json', 'Content-Length': '62', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:31,532 - __main__ - INFO - Content response:{'pk': 100, 'name': 'Ticker', 'description': 'DJ 30', 'category': 24}
+2019-02-05 12:40:31,532 - __main__ - INFO - Content pk value:100
+2019-02-05 12:40:31,708 - __main__ - INFO - Payload: 
+2019-02-05 12:40:31,708 - __main__ - INFO - {'value': '0.00', 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 100}
+2019-02-05 12:40:31,708 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:31,708 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:31,708 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:32 GMT', 'Content-Type': 'application/json', 'Content-Length': '120', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:31,708 - __main__ - INFO - Content response:{'pk': 174, 'value': '0.00000', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 100}
+2019-02-05 12:40:31,708 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:31,910 - __main__ - INFO - Payload: 
+2019-02-05 12:40:31,911 - __main__ - INFO - {'value': '25461.700', 'unit': 6, 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Value', 'symbol': 100}
+2019-02-05 12:40:31,911 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:31,911 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:31,911 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:32 GMT', 'Content-Type': 'application/json', 'Content-Length': '124', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:31,912 - __main__ - INFO - Content response:{'pk': 175, 'value': '25461.70000', 'unit': '6', 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Value', 'symbol': 100}
+2019-02-05 12:40:31,912 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:32,109 - __main__ - INFO - Payload: 
+2019-02-05 12:40:32,109 - __main__ - INFO - {'name': 'Ticker', 'description': 'NIKKEI', 'category': 24}
+2019-02-05 12:40:32,109 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:32,110 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:32,110 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:32 GMT', 'Content-Type': 'application/json', 'Content-Length': '63', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:32,110 - __main__ - INFO - Content response:{'pk': 101, 'name': 'Ticker', 'description': 'NIKKEI', 'category': 24}
+2019-02-05 12:40:32,110 - __main__ - INFO - Content pk value:101
+2019-02-05 12:40:32,310 - __main__ - INFO - Payload: 
+2019-02-05 12:40:32,310 - __main__ - INFO - {'value': '0.01', 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 101}
+2019-02-05 12:40:32,311 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:32,311 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:32,311 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:32 GMT', 'Content-Type': 'application/json', 'Content-Length': '120', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:32,311 - __main__ - INFO - Content response:{'pk': 176, 'value': '0.01000', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 101}
+2019-02-05 12:40:32,312 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:32,499 - __main__ - INFO - Payload: 
+2019-02-05 12:40:32,500 - __main__ - INFO - {'value': '22147.750', 'unit': 6, 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Value', 'symbol': 101}
+2019-02-05 12:40:32,500 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:32,500 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:32,500 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:33 GMT', 'Content-Type': 'application/json', 'Content-Length': '124', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:32,500 - __main__ - INFO - Content response:{'pk': 177, 'value': '22147.75000', 'unit': '6', 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Value', 'symbol': 101}
+2019-02-05 12:40:32,500 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:32,698 - __main__ - INFO - Payload: 
+2019-02-05 12:40:32,698 - __main__ - INFO - {'name': 'Topic', 'description': 'Titoli azionari italiani', 'update': 3}
+2019-02-05 12:40:32,698 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/categories/
+2019-02-05 12:40:32,698 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:32,699 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:33 GMT', 'Content-Type': 'application/json', 'Content-Length': '76', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:32,699 - __main__ - INFO - Content response:{'pk': 25, 'name': 'Topic', 'description': 'Titoli azionari italiani', 'update': 3}
+2019-02-05 12:40:32,699 - __main__ - INFO - Content pk value:25
+2019-02-05 12:40:32,891 - __main__ - INFO - Payload: 
+2019-02-05 12:40:32,891 - __main__ - INFO - {'name': 'Ticker', 'description': 'ISP', 'category': 25}
+2019-02-05 12:40:32,891 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:32,892 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:32,892 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:33 GMT', 'Content-Type': 'application/json', 'Content-Length': '60', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:32,892 - __main__ - INFO - Content response:{'pk': 102, 'name': 'Ticker', 'description': 'ISP', 'category': 25}
+2019-02-05 12:40:32,892 - __main__ - INFO - Content pk value:102
+2019-02-05 12:40:33,074 - __main__ - INFO - Payload: 
+2019-02-05 12:40:33,074 - __main__ - INFO - {'value': '-0.01', 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 102}
+2019-02-05 12:40:33,074 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:33,074 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:33,074 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:33 GMT', 'Content-Type': 'application/json', 'Content-Length': '121', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:33,075 - __main__ - INFO - Content response:{'pk': 178, 'value': '-0.01000', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 102}
+2019-02-05 12:40:33,075 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:33,276 - __main__ - INFO - Payload: 
+2019-02-05 12:40:33,276 - __main__ - INFO - {'value': '1.953', 'unit': 5, 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Price', 'symbol': 102}
+2019-02-05 12:40:33,276 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:33,276 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:33,276 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:33 GMT', 'Content-Type': 'application/json', 'Content-Length': '120', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:33,276 - __main__ - INFO - Content response:{'pk': 179, 'value': '1.95300', 'unit': '5', 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Price', 'symbol': 102}
+2019-02-05 12:40:33,276 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:33,467 - __main__ - INFO - Payload: 
+2019-02-05 12:40:33,468 - __main__ - INFO - {'name': 'Ticker', 'description': 'UCG', 'category': 25}
+2019-02-05 12:40:33,468 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:33,468 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:33,468 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:34 GMT', 'Content-Type': 'application/json', 'Content-Length': '60', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:33,469 - __main__ - INFO - Content response:{'pk': 103, 'name': 'Ticker', 'description': 'UCG', 'category': 25}
+2019-02-05 12:40:33,469 - __main__ - INFO - Content pk value:103
+2019-02-05 12:40:33,691 - __main__ - INFO - Payload: 
+2019-02-05 12:40:33,691 - __main__ - INFO - {'value': '-0.01', 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 103}
+2019-02-05 12:40:33,691 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:33,692 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:33,692 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:34 GMT', 'Content-Type': 'application/json', 'Content-Length': '121', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:33,692 - __main__ - INFO - Content response:{'pk': 180, 'value': '-0.01000', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 103}
+2019-02-05 12:40:33,692 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:33,879 - __main__ - INFO - Payload: 
+2019-02-05 12:40:33,879 - __main__ - INFO - {'value': '11.460', 'unit': 5, 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Price', 'symbol': 103}
+2019-02-05 12:40:33,879 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:33,879 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:33,879 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:34 GMT', 'Content-Type': 'application/json', 'Content-Length': '121', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:33,879 - __main__ - INFO - Content response:{'pk': 181, 'value': '11.46000', 'unit': '5', 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Price', 'symbol': 103}
+2019-02-05 12:40:33,879 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:34,064 - __main__ - INFO - Payload: 
+2019-02-05 12:40:34,064 - __main__ - INFO - {'name': 'Ticker', 'description': 'UBI', 'category': 25}
+2019-02-05 12:40:34,065 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:34,065 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:34,065 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:34 GMT', 'Content-Type': 'application/json', 'Content-Length': '60', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:34,065 - __main__ - INFO - Content response:{'pk': 104, 'name': 'Ticker', 'description': 'UBI', 'category': 25}
+2019-02-05 12:40:34,066 - __main__ - INFO - Content pk value:104
+2019-02-05 12:40:34,261 - __main__ - INFO - Payload: 
+2019-02-05 12:40:34,262 - __main__ - INFO - {'value': '-0.02', 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 104}
+2019-02-05 12:40:34,262 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:34,262 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:34,262 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:34 GMT', 'Content-Type': 'application/json', 'Content-Length': '121', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:34,263 - __main__ - INFO - Content response:{'pk': 182, 'value': '-0.02000', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 104}
+2019-02-05 12:40:34,263 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:34,460 - __main__ - INFO - Payload: 
+2019-02-05 12:40:34,460 - __main__ - INFO - {'value': '2.730', 'unit': 5, 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Price', 'symbol': 104}
+2019-02-05 12:40:34,460 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:34,460 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:34,460 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:35 GMT', 'Content-Type': 'application/json', 'Content-Length': '120', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:34,460 - __main__ - INFO - Content response:{'pk': 183, 'value': '2.73000', 'unit': '5', 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Price', 'symbol': 104}
+2019-02-05 12:40:34,460 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:34,660 - __main__ - INFO - Payload: 
+2019-02-05 12:40:34,660 - __main__ - INFO - {'name': 'Ticker', 'description': 'Generali', 'category': 25}
+2019-02-05 12:40:34,660 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:34,660 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:34,660 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:35 GMT', 'Content-Type': 'application/json', 'Content-Length': '65', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:34,660 - __main__ - INFO - Content response:{'pk': 105, 'name': 'Ticker', 'description': 'Generali', 'category': 25}
+2019-02-05 12:40:34,660 - __main__ - INFO - Content pk value:105
+2019-02-05 12:40:34,875 - __main__ - INFO - Payload: 
+2019-02-05 12:40:34,875 - __main__ - INFO - {'value': '-0.01', 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 105}
+2019-02-05 12:40:34,875 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:34,875 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:34,875 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:35 GMT', 'Content-Type': 'application/json', 'Content-Length': '121', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:34,875 - __main__ - INFO - Content response:{'pk': 184, 'value': '-0.01000', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 105}
+2019-02-05 12:40:34,875 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:35,070 - __main__ - INFO - Payload: 
+2019-02-05 12:40:35,071 - __main__ - INFO - {'value': '14.220', 'unit': 5, 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Price', 'symbol': 105}
+2019-02-05 12:40:35,071 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:35,071 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:35,072 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:35 GMT', 'Content-Type': 'application/json', 'Content-Length': '121', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:35,072 - __main__ - INFO - Content response:{'pk': 185, 'value': '14.22000', 'unit': '5', 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Price', 'symbol': 105}
+2019-02-05 12:40:35,072 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:35,280 - __main__ - INFO - Payload: 
+2019-02-05 12:40:35,280 - __main__ - INFO - {'name': 'Ticker', 'description': 'Unipol', 'category': 25}
+2019-02-05 12:40:35,281 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:35,281 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:35,281 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:35 GMT', 'Content-Type': 'application/json', 'Content-Length': '63', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:35,281 - __main__ - INFO - Content response:{'pk': 106, 'name': 'Ticker', 'description': 'Unipol', 'category': 25}
+2019-02-05 12:40:35,282 - __main__ - INFO - Content pk value:106
+2019-02-05 12:40:35,467 - __main__ - INFO - Payload: 
+2019-02-05 12:40:35,467 - __main__ - INFO - {'value': '0.00', 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 106}
+2019-02-05 12:40:35,468 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:35,468 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:35,468 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:36 GMT', 'Content-Type': 'application/json', 'Content-Length': '120', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:35,468 - __main__ - INFO - Content response:{'pk': 186, 'value': '0.00000', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 106}
+2019-02-05 12:40:35,469 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:35,672 - __main__ - INFO - Payload: 
+2019-02-05 12:40:35,672 - __main__ - INFO - {'value': '3.608', 'unit': 5, 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Price', 'symbol': 106}
+2019-02-05 12:40:35,673 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:35,673 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:35,673 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:36 GMT', 'Content-Type': 'application/json', 'Content-Length': '120', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:35,673 - __main__ - INFO - Content response:{'pk': 187, 'value': '3.60800', 'unit': '5', 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Price', 'symbol': 106}
+2019-02-05 12:40:35,674 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:35,863 - __main__ - INFO - Payload: 
+2019-02-05 12:40:35,863 - __main__ - INFO - {'name': 'Ticker', 'description': 'Telecom', 'category': 25}
+2019-02-05 12:40:35,863 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:35,864 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:35,864 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:36 GMT', 'Content-Type': 'application/json', 'Content-Length': '64', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:35,864 - __main__ - INFO - Content response:{'pk': 107, 'name': 'Ticker', 'description': 'Telecom', 'category': 25}
+2019-02-05 12:40:35,864 - __main__ - INFO - Content pk value:107
+2019-02-05 12:40:36,063 - __main__ - INFO - Payload: 
+2019-02-05 12:40:36,063 - __main__ - INFO - {'value': '-0.01', 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 107}
+2019-02-05 12:40:36,064 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:36,064 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:36,064 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:36 GMT', 'Content-Type': 'application/json', 'Content-Length': '121', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:36,064 - __main__ - INFO - Content response:{'pk': 188, 'value': '-0.01000', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 107}
+2019-02-05 12:40:36,064 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:36,260 - __main__ - INFO - Payload: 
+2019-02-05 12:40:36,261 - __main__ - INFO - {'value': '0.529', 'unit': 5, 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Price', 'symbol': 107}
+2019-02-05 12:40:36,261 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:36,261 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:36,261 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:36 GMT', 'Content-Type': 'application/json', 'Content-Length': '120', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:36,261 - __main__ - INFO - Content response:{'pk': 189, 'value': '0.52900', 'unit': '5', 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Price', 'symbol': 107}
+2019-02-05 12:40:36,261 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:36,459 - __main__ - INFO - Payload: 
+2019-02-05 12:40:36,460 - __main__ - INFO - {'name': 'Topic', 'description': 'Titoli azionari europei', 'update': 3}
+2019-02-05 12:40:36,460 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/categories/
+2019-02-05 12:40:36,460 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:36,460 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:37 GMT', 'Content-Type': 'application/json', 'Content-Length': '75', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:36,460 - __main__ - INFO - Content response:{'pk': 26, 'name': 'Topic', 'description': 'Titoli azionari europei', 'update': 3}
+2019-02-05 12:40:36,460 - __main__ - INFO - Content pk value:26
+2019-02-05 12:40:36,663 - __main__ - INFO - Payload: 
+2019-02-05 12:40:36,663 - __main__ - INFO - {'name': 'Ticker', 'description': 'SocGen ', 'category': 26}
+2019-02-05 12:40:36,663 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:36,664 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:36,664 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:37 GMT', 'Content-Type': 'application/json', 'Content-Length': '63', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:36,664 - __main__ - INFO - Content response:{'pk': 108, 'name': 'Ticker', 'description': 'SocGen', 'category': 26}
+2019-02-05 12:40:36,664 - __main__ - INFO - Content pk value:108
+2019-02-05 12:40:36,844 - __main__ - INFO - Payload: 
+2019-02-05 12:40:36,844 - __main__ - INFO - {'value': '-0.01', 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 108}
+2019-02-05 12:40:36,845 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:36,845 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:36,845 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:37 GMT', 'Content-Type': 'application/json', 'Content-Length': '121', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:36,846 - __main__ - INFO - Content response:{'pk': 190, 'value': '-0.01000', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 108}
+2019-02-05 12:40:36,846 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:37,049 - __main__ - INFO - Payload: 
+2019-02-05 12:40:37,049 - __main__ - INFO - {'value': '33.035', 'unit': 5, 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Price', 'symbol': 108}
+2019-02-05 12:40:37,049 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:37,050 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:37,050 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:37 GMT', 'Content-Type': 'application/json', 'Content-Length': '121', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:37,050 - __main__ - INFO - Content response:{'pk': 191, 'value': '33.03500', 'unit': '5', 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Price', 'symbol': 108}
+2019-02-05 12:40:37,050 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:37,246 - __main__ - INFO - Payload: 
+2019-02-05 12:40:37,246 - __main__ - INFO - {'name': 'Ticker', 'description': 'Bnp', 'category': 26}
+2019-02-05 12:40:37,247 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:37,247 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:37,247 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:37 GMT', 'Content-Type': 'application/json', 'Content-Length': '60', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:37,247 - __main__ - INFO - Content response:{'pk': 109, 'name': 'Ticker', 'description': 'Bnp', 'category': 26}
+2019-02-05 12:40:37,248 - __main__ - INFO - Content pk value:109
+2019-02-05 12:40:37,445 - __main__ - INFO - Payload: 
+2019-02-05 12:40:37,445 - __main__ - INFO - {'value': '0.00', 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 109}
+2019-02-05 12:40:37,445 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:37,445 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:37,445 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:38 GMT', 'Content-Type': 'application/json', 'Content-Length': '120', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:37,445 - __main__ - INFO - Content response:{'pk': 192, 'value': '0.00000', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 109}
+2019-02-05 12:40:37,445 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:37,631 - __main__ - INFO - Payload: 
+2019-02-05 12:40:37,631 - __main__ - INFO - {'value': '46.545', 'unit': 5, 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Price', 'symbol': 109}
+2019-02-05 12:40:37,631 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:37,631 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:37,631 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:38 GMT', 'Content-Type': 'application/json', 'Content-Length': '121', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:37,631 - __main__ - INFO - Content response:{'pk': 193, 'value': '46.54500', 'unit': '5', 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Price', 'symbol': 109}
+2019-02-05 12:40:37,631 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:37,828 - __main__ - INFO - Payload: 
+2019-02-05 12:40:37,828 - __main__ - INFO - {'name': 'Ticker', 'description': 'Deutsche', 'category': 26}
+2019-02-05 12:40:37,828 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:37,829 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:37,829 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:38 GMT', 'Content-Type': 'application/json', 'Content-Length': '65', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:37,829 - __main__ - INFO - Content response:{'pk': 110, 'name': 'Ticker', 'description': 'Deutsche', 'category': 26}
+2019-02-05 12:40:37,829 - __main__ - INFO - Content pk value:110
+2019-02-05 12:40:38,014 - __main__ - INFO - Payload: 
+2019-02-05 12:40:38,015 - __main__ - INFO - {'value': '-0.01', 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 110}
+2019-02-05 12:40:38,015 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:38,015 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:38,016 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:38 GMT', 'Content-Type': 'application/json', 'Content-Length': '121', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:38,016 - __main__ - INFO - Content response:{'pk': 194, 'value': '-0.01000', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 0, 'description': 'Delta', 'symbol': 110}
+2019-02-05 12:40:38,016 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:38,233 - __main__ - INFO - Payload: 
+2019-02-05 12:40:38,233 - __main__ - INFO - {'value': '9.123', 'unit': 5, 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Price', 'symbol': 110}
+2019-02-05 12:40:38,234 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:38,234 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:38,234 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:38 GMT', 'Content-Type': 'application/json', 'Content-Length': '120', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:38,234 - __main__ - INFO - Content response:{'pk': 195, 'value': '9.12300', 'unit': '5', 'precision': 3, 'val_format': 0, 'val_sequence': 1, 'description': 'Price', 'symbol': 110}
+2019-02-05 12:40:38,235 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:38,438 - __main__ - INFO - Payload: 
+2019-02-05 12:40:38,439 - __main__ - INFO - {'name': 'Topic', 'description': 'Partecipazioni aziende quotate', 'update': 3}
+2019-02-05 12:40:38,439 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/categories/
+2019-02-05 12:40:38,439 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:38,439 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:39 GMT', 'Content-Type': 'application/json', 'Content-Length': '82', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:38,440 - __main__ - INFO - Content response:{'pk': 27, 'name': 'Topic', 'description': 'Partecipazioni aziende quotate', 'update': 3}
+2019-02-05 12:40:38,440 - __main__ - INFO - Content pk value:27
+2019-02-05 12:40:38,666 - __main__ - INFO - Payload: 
+2019-02-05 12:40:38,666 - __main__ - INFO - {'name': 'Ticker', 'description': 'ENI', 'category': 27}
+2019-02-05 12:40:38,666 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:38,667 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:38,667 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:39 GMT', 'Content-Type': 'application/json', 'Content-Length': '60', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:38,667 - __main__ - INFO - Content response:{'pk': 111, 'name': 'Ticker', 'description': 'ENI', 'category': 27}
+2019-02-05 12:40:38,667 - __main__ - INFO - Content pk value:111
+2019-02-05 12:40:38,863 - __main__ - INFO - Payload: 
+2019-02-05 12:40:38,863 - __main__ - INFO - {'value': 15.356, 'unit': 5, 'precision': 3, 'val_format': 0, 'val_sequence': 0, 'description': 'Price', 'symbol': 111}
+2019-02-05 12:40:38,863 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:38,863 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:38,863 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:39 GMT', 'Content-Type': 'application/json', 'Content-Length': '121', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:38,863 - __main__ - INFO - Content response:{'pk': 196, 'value': '15.35600', 'unit': '5', 'precision': 3, 'val_format': 0, 'val_sequence': 0, 'description': 'Price', 'symbol': 111}
+2019-02-05 12:40:38,863 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:39,053 - __main__ - INFO - Payload: 
+2019-02-05 12:40:39,053 - __main__ - INFO - {'value': -0.62, 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 1, 'description': 'Delta', 'symbol': 111}
+2019-02-05 12:40:39,054 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:39,054 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:39,054 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:39 GMT', 'Content-Type': 'application/json', 'Content-Length': '121', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:39,054 - __main__ - INFO - Content response:{'pk': 197, 'value': '-0.62000', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 1, 'description': 'Delta', 'symbol': 111}
+2019-02-05 12:40:39,054 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:39,241 - __main__ - INFO - Payload: 
+2019-02-05 12:40:39,241 - __main__ - INFO - {'value': '1904320.', 'unit': 5, 'precision': 0, 'val_format': 0, 'val_sequence': 2, 'description': 'Volumes', 'symbol': 111}
+2019-02-05 12:40:39,241 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:39,241 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:39,241 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:39 GMT', 'Content-Type': 'application/json', 'Content-Length': '128', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:39,242 - __main__ - INFO - Content response:{'pk': 198, 'value': '1904320.00000', 'unit': '5', 'precision': 0, 'val_format': 0, 'val_sequence': 2, 'description': 'Volumes', 'symbol': 111}
+2019-02-05 12:40:39,242 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:39,437 - __main__ - INFO - Payload: 
+2019-02-05 12:40:39,437 - __main__ - INFO - {'name': 'Ticker', 'description': 'Snam', 'category': 27}
+2019-02-05 12:40:39,438 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:39,438 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:39,438 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:40 GMT', 'Content-Type': 'application/json', 'Content-Length': '61', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:39,438 - __main__ - INFO - Content response:{'pk': 112, 'name': 'Ticker', 'description': 'Snam', 'category': 27}
+2019-02-05 12:40:39,439 - __main__ - INFO - Content pk value:112
+2019-02-05 12:40:39,643 - __main__ - INFO - Payload: 
+2019-02-05 12:40:39,643 - __main__ - INFO - {'value': -0.05, 'unit': 5, 'precision': 3, 'val_format': 0, 'val_sequence': 0, 'description': 'Price', 'symbol': 112}
+2019-02-05 12:40:39,644 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:39,644 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:39,644 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:40 GMT', 'Content-Type': 'application/json', 'Content-Length': '121', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:39,644 - __main__ - INFO - Content response:{'pk': 199, 'value': '-0.05000', 'unit': '5', 'precision': 3, 'val_format': 0, 'val_sequence': 0, 'description': 'Price', 'symbol': 112}
+2019-02-05 12:40:39,645 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:39,856 - __main__ - INFO - Payload: 
+2019-02-05 12:40:39,857 - __main__ - INFO - {'value': -0.05, 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 1, 'description': 'Delta', 'symbol': 112}
+2019-02-05 12:40:39,857 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:39,857 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:39,857 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:40 GMT', 'Content-Type': 'application/json', 'Content-Length': '121', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:39,858 - __main__ - INFO - Content response:{'pk': 200, 'value': '-0.05000', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 1, 'description': 'Delta', 'symbol': 112}
+2019-02-05 12:40:39,858 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:40,054 - __main__ - INFO - Payload: 
+2019-02-05 12:40:40,054 - __main__ - INFO - {'value': '1123020.', 'unit': 5, 'precision': 0, 'val_format': 0, 'val_sequence': 2, 'description': 'Volumes', 'symbol': 112}
+2019-02-05 12:40:40,054 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:40,055 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:40,055 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:40 GMT', 'Content-Type': 'application/json', 'Content-Length': '128', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:40,055 - __main__ - INFO - Content response:{'pk': 201, 'value': '1123020.00000', 'unit': '5', 'precision': 0, 'val_format': 0, 'val_sequence': 2, 'description': 'Volumes', 'symbol': 112}
+2019-02-05 12:40:40,055 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:40,245 - __main__ - INFO - Payload: 
+2019-02-05 12:40:40,245 - __main__ - INFO - {'name': 'Ticker', 'description': 'Terna', 'category': 27}
+2019-02-05 12:40:40,245 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:40,245 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:40,246 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:40 GMT', 'Content-Type': 'application/json', 'Content-Length': '62', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:40,246 - __main__ - INFO - Content response:{'pk': 113, 'name': 'Ticker', 'description': 'Terna', 'category': 27}
+2019-02-05 12:40:40,246 - __main__ - INFO - Content pk value:113
+2019-02-05 12:40:40,433 - __main__ - INFO - Payload: 
+2019-02-05 12:40:40,433 - __main__ - INFO - {'value': -0.82, 'unit': 5, 'precision': 3, 'val_format': 0, 'val_sequence': 0, 'description': 'Price', 'symbol': 113}
+2019-02-05 12:40:40,433 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:40,433 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:40,433 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:41 GMT', 'Content-Type': 'application/json', 'Content-Length': '121', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:40,433 - __main__ - INFO - Content response:{'pk': 202, 'value': '-0.82000', 'unit': '5', 'precision': 3, 'val_format': 0, 'val_sequence': 0, 'description': 'Price', 'symbol': 113}
+2019-02-05 12:40:40,433 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:40,641 - __main__ - INFO - Payload: 
+2019-02-05 12:40:40,641 - __main__ - INFO - {'value': -0.82, 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 1, 'description': 'Delta', 'symbol': 113}
+2019-02-05 12:40:40,641 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:40,641 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:40,641 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:41 GMT', 'Content-Type': 'application/json', 'Content-Length': '121', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:40,641 - __main__ - INFO - Content response:{'pk': 203, 'value': '-0.82000', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 1, 'description': 'Delta', 'symbol': 113}
+2019-02-05 12:40:40,642 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:40,844 - __main__ - INFO - Payload: 
+2019-02-05 12:40:40,844 - __main__ - INFO - {'value': '959458.', 'unit': 5, 'precision': 0, 'val_format': 0, 'val_sequence': 2, 'description': 'Volumes', 'symbol': 113}
+2019-02-05 12:40:40,844 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:40,844 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:40,844 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:41 GMT', 'Content-Type': 'application/json', 'Content-Length': '127', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:40,844 - __main__ - INFO - Content response:{'pk': 204, 'value': '959458.00000', 'unit': '5', 'precision': 0, 'val_format': 0, 'val_sequence': 2, 'description': 'Volumes', 'symbol': 113}
+2019-02-05 12:40:40,844 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:41,048 - __main__ - INFO - Payload: 
+2019-02-05 12:40:41,048 - __main__ - INFO - {'name': 'Ticker', 'description': 'Fincantieri', 'category': 27}
+2019-02-05 12:40:41,049 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:41,049 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:41,049 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:41 GMT', 'Content-Type': 'application/json', 'Content-Length': '68', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:41,049 - __main__ - INFO - Content response:{'pk': 114, 'name': 'Ticker', 'description': 'Fincantieri', 'category': 27}
+2019-02-05 12:40:41,049 - __main__ - INFO - Content pk value:114
+2019-02-05 12:40:41,246 - __main__ - INFO - Payload: 
+2019-02-05 12:40:41,246 - __main__ - INFO - {'value': 0.2, 'unit': 5, 'precision': 3, 'val_format': 0, 'val_sequence': 0, 'description': 'Price', 'symbol': 114}
+2019-02-05 12:40:41,246 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:41,247 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:41,247 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:41 GMT', 'Content-Type': 'application/json', 'Content-Length': '120', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:41,247 - __main__ - INFO - Content response:{'pk': 205, 'value': '0.20000', 'unit': '5', 'precision': 3, 'val_format': 0, 'val_sequence': 0, 'description': 'Price', 'symbol': 114}
+2019-02-05 12:40:41,247 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:41,462 - __main__ - INFO - Payload: 
+2019-02-05 12:40:41,463 - __main__ - INFO - {'value': 0.2, 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 1, 'description': 'Delta', 'symbol': 114}
+2019-02-05 12:40:41,463 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:41,463 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:41,463 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:42 GMT', 'Content-Type': 'application/json', 'Content-Length': '120', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:41,463 - __main__ - INFO - Content response:{'pk': 206, 'value': '0.20000', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 1, 'description': 'Delta', 'symbol': 114}
+2019-02-05 12:40:41,464 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:41,680 - __main__ - INFO - Payload: 
+2019-02-05 12:40:41,680 - __main__ - INFO - {'value': '462125.', 'unit': 5, 'precision': 0, 'val_format': 0, 'val_sequence': 2, 'description': 'Volumes', 'symbol': 114}
+2019-02-05 12:40:41,681 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:41,681 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:41,681 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:42 GMT', 'Content-Type': 'application/json', 'Content-Length': '127', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:41,681 - __main__ - INFO - Content response:{'pk': 207, 'value': '462125.00000', 'unit': '5', 'precision': 0, 'val_format': 0, 'val_sequence': 2, 'description': 'Volumes', 'symbol': 114}
+2019-02-05 12:40:41,682 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:41,869 - __main__ - INFO - Payload: 
+2019-02-05 12:40:41,870 - __main__ - INFO - {'name': 'Ticker', 'description': 'Italgas', 'category': 27}
+2019-02-05 12:40:41,870 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:41,870 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:41,870 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:42 GMT', 'Content-Type': 'application/json', 'Content-Length': '64', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:41,871 - __main__ - INFO - Content response:{'pk': 115, 'name': 'Ticker', 'description': 'Italgas', 'category': 27}
+2019-02-05 12:40:41,871 - __main__ - INFO - Content pk value:115
+2019-02-05 12:40:42,063 - __main__ - INFO - Payload: 
+2019-02-05 12:40:42,063 - __main__ - INFO - {'value': 1.326, 'unit': 5, 'precision': 3, 'val_format': 0, 'val_sequence': 0, 'description': 'Price', 'symbol': 115}
+2019-02-05 12:40:42,063 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:42,063 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:42,064 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:42 GMT', 'Content-Type': 'application/json', 'Content-Length': '120', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:42,064 - __main__ - INFO - Content response:{'pk': 208, 'value': '1.32600', 'unit': '5', 'precision': 3, 'val_format': 0, 'val_sequence': 0, 'description': 'Price', 'symbol': 115}
+2019-02-05 12:40:42,064 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:42,261 - __main__ - INFO - Payload: 
+2019-02-05 12:40:42,261 - __main__ - INFO - {'value': 0.61, 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 1, 'description': 'Delta', 'symbol': 115}
+2019-02-05 12:40:42,261 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:42,261 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:42,261 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:42 GMT', 'Content-Type': 'application/json', 'Content-Length': '120', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:42,261 - __main__ - INFO - Content response:{'pk': 209, 'value': '0.61000', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 1, 'description': 'Delta', 'symbol': 115}
+2019-02-05 12:40:42,261 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:42,485 - __main__ - INFO - Payload: 
+2019-02-05 12:40:42,486 - __main__ - INFO - {'value': '772572.', 'unit': 5, 'precision': 0, 'val_format': 0, 'val_sequence': 2, 'description': 'Volumes', 'symbol': 115}
+2019-02-05 12:40:42,486 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:42,486 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:42,486 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:43 GMT', 'Content-Type': 'application/json', 'Content-Length': '127', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:42,486 - __main__ - INFO - Content response:{'pk': 210, 'value': '772572.00000', 'unit': '5', 'precision': 0, 'val_format': 0, 'val_sequence': 2, 'description': 'Volumes', 'symbol': 115}
+2019-02-05 12:40:42,486 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:42,696 - __main__ - INFO - Payload: 
+2019-02-05 12:40:42,697 - __main__ - INFO - {'name': 'Ticker', 'description': 'Poste Italiane', 'category': 27}
+2019-02-05 12:40:42,697 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:42,697 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:42,697 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:43 GMT', 'Content-Type': 'application/json', 'Content-Length': '71', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:42,698 - __main__ - INFO - Content response:{'pk': 116, 'name': 'Ticker', 'description': 'Poste Italiane', 'category': 27}
+2019-02-05 12:40:42,698 - __main__ - INFO - Content pk value:116
+2019-02-05 12:40:42,915 - __main__ - INFO - Payload: 
+2019-02-05 12:40:42,915 - __main__ - INFO - {'value': 4.719, 'unit': 5, 'precision': 3, 'val_format': 0, 'val_sequence': 0, 'description': 'Price', 'symbol': 116}
+2019-02-05 12:40:42,916 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:42,916 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:42,916 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:43 GMT', 'Content-Type': 'application/json', 'Content-Length': '120', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:42,916 - __main__ - INFO - Content response:{'pk': 211, 'value': '4.71900', 'unit': '5', 'precision': 3, 'val_format': 0, 'val_sequence': 0, 'description': 'Price', 'symbol': 116}
+2019-02-05 12:40:42,917 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:43,101 - __main__ - INFO - Payload: 
+2019-02-05 12:40:43,102 - __main__ - INFO - {'value': 0.64, 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 1, 'description': 'Delta', 'symbol': 116}
+2019-02-05 12:40:43,102 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:43,102 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:43,102 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:43 GMT', 'Content-Type': 'application/json', 'Content-Length': '120', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:43,103 - __main__ - INFO - Content response:{'pk': 212, 'value': '0.64000', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 1, 'description': 'Delta', 'symbol': 116}
+2019-02-05 12:40:43,103 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:43,310 - __main__ - INFO - Payload: 
+2019-02-05 12:40:43,311 - __main__ - INFO - {'value': '1022381.', 'unit': 5, 'precision': 0, 'val_format': 0, 'val_sequence': 2, 'description': 'Volumes', 'symbol': 116}
+2019-02-05 12:40:43,311 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:43,311 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:43,311 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:43 GMT', 'Content-Type': 'application/json', 'Content-Length': '128', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:43,312 - __main__ - INFO - Content response:{'pk': 213, 'value': '1022381.00000', 'unit': '5', 'precision': 0, 'val_format': 0, 'val_sequence': 2, 'description': 'Volumes', 'symbol': 116}
+2019-02-05 12:40:43,312 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:43,505 - __main__ - INFO - Payload: 
+2019-02-05 12:40:43,505 - __main__ - INFO - {'name': 'Ticker', 'description': 'Telecom Italia', 'category': 27}
+2019-02-05 12:40:43,505 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/symbols/
+2019-02-05 12:40:43,505 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:43,505 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:44 GMT', 'Content-Type': 'application/json', 'Content-Length': '71', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:43,505 - __main__ - INFO - Content response:{'pk': 117, 'name': 'Ticker', 'description': 'Telecom Italia', 'category': 27}
+2019-02-05 12:40:43,505 - __main__ - INFO - Content pk value:117
+2019-02-05 12:40:43,709 - __main__ - INFO - Payload: 
+2019-02-05 12:40:43,709 - __main__ - INFO - {'value': 6.43, 'unit': 5, 'precision': 3, 'val_format': 0, 'val_sequence': 0, 'description': 'Price', 'symbol': 117}
+2019-02-05 12:40:43,709 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:43,709 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:43,709 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:44 GMT', 'Content-Type': 'application/json', 'Content-Length': '120', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:43,709 - __main__ - INFO - Content response:{'pk': 214, 'value': '6.43000', 'unit': '5', 'precision': 3, 'val_format': 0, 'val_sequence': 0, 'description': 'Price', 'symbol': 117}
+2019-02-05 12:40:43,709 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:43,913 - __main__ - INFO - Payload: 
+2019-02-05 12:40:43,914 - __main__ - INFO - {'value': -1.26, 'unit': 1, 'precision': 2, 'val_format': 0, 'val_sequence': 1, 'description': 'Delta', 'symbol': 117}
+2019-02-05 12:40:43,914 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:43,914 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:43,914 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:44 GMT', 'Content-Type': 'application/json', 'Content-Length': '121', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:43,914 - __main__ - INFO - Content response:{'pk': 215, 'value': '-1.26000', 'unit': '1', 'precision': 2, 'val_format': 0, 'val_sequence': 1, 'description': 'Delta', 'symbol': 117}
+2019-02-05 12:40:43,914 - __main__ - INFO - Content pk value:-1
+2019-02-05 12:40:44,126 - __main__ - INFO - Payload: 
+2019-02-05 12:40:44,126 - __main__ - INFO - {'value': '344109.', 'unit': 5, 'precision': 0, 'val_format': 0, 'val_sequence': 2, 'description': 'Volumes', 'symbol': 117}
+2019-02-05 12:40:44,126 - __main__ - INFO - Put requested: http://207.154.194.165:8080/api/values/
+2019-02-05 12:40:44,126 - __main__ - INFO - Status code: 201
+2019-02-05 12:40:44,127 - __main__ - INFO - Response header:{'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Tue, 05 Feb 2019 11:40:44 GMT', 'Content-Type': 'application/json', 'Content-Length': '127', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie, Origin', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+2019-02-05 12:40:44,127 - __main__ - INFO - Content response:{'pk': 216, 'value': '344109.00000', 'unit': '5', 'precision': 0, 'val_format': 0, 'val_sequence': 2, 'description': 'Volumes', 'symbol': 117}
+2019-02-05 12:40:44,127 - __main__ - INFO - Content pk value:-1

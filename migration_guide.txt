@@ -1,0 +1,6 @@
+1. Create project marketupdate_site: 
+2. replace subfolder marketupdate_site/marketupdate_site
+3. copy subfolders marketupdate_model, marketupdate_rest, marketupdate_frontend
+
+4. makemigrations
+5. migrate (the view all_last_update_v is not created 'cause it's not managed by django)

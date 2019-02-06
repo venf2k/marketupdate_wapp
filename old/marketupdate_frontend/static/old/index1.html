@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html ng-app='MarketUpdateApp'>
+  <head>
+    <meta charset="utf-8">
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="js/app.js"></script>
+    <!--link rel="stylesheet" href="css/bootstrap.min.css"-->
+    <!--link rel="stylesheet" href="styles.css"-->
+    <title>Market Update</title>
+    <style type="text/css">
+      body { 
+        color: #001548;
+        font-family: arial, helvetica, sans-serif;
+      }
+      h1 { 
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+      }
+      p.tail { 
+        font-size: 15px;
+        font-weight: bold;
+        color: gray;
+        text-align: center;
+      }
+
+      table.table thead tr { 
+        color: #FFFFFF;
+        font-weight: bold;
+        background-color: #C90026;
+      }
+      table.table tbody tr:nth-child(odd) { 
+        background-color: lightgray;
+      }
+    </style>
+  </head>
+  <body>
+    <div ng-controller='MarketUpdateController as menu'>
+      <table>
+        <tr>
+          <td><img src="cdp_logo.png" alt="CDP Logo" width="50%" height="50%"></td>
+          <td align="left"><h1>Market Update del {{ menu.MarketData[0].pub_date }} alle {{ menu.MarketData[0].pub_hour }} </h1>
+          </td>
+        </tr>
+      </table>
+
+      <ul>
+      
+        <li ng-repeat="DataValue in menu.MarketData">
+          <!-- (<a href="" ng-click="menu.logMenuItems(DataValue.short_name);">{{ DataValue.sym_name}}</a>) -->
+          {{ DataValue.cat_name }} {{ DataValue.sym_name }} {{ DataValue.val_value }} {{ DataValue.val_description }}
+        </li>
+      
+      </ul>
+
+    </div>
+
+
+
+    <div class="table-responsive">
+      <table class="table table-striped">
+        <thead>
+          <tr class="bg-danger text-white">
+            <th scope="col" colspan = "4">Tassi d'interesse</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="tail">a cura di Finance</p>
+
+  </body>
+</html>

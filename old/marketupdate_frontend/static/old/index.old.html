@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app='MarketUpdateApp'>
+  <head>
+    <meta charset="utf-8">
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Using $http Service</title>
+  </head>
+  <body>
+    <h1>Using $http Service</h1>
+
+    <div ng-controller='TabsMarketUpdateController as tabs'>
+      <h3>List of symbols values</h3>
+      <ul>
+        <li ng-repeat="datarow in tabs.last_market_update_data">
+          (<a href="" ng-click="tabs.logMenuItems(datarow.pk);">{{ datarow.pk }}</a>)
+          {{ datarow.val_value }} 
+        </li>
+      </ul>
+    </div>
+
+  </body>
+</html>
